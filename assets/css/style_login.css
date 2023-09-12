@@ -1,0 +1,20 @@
+body{
+    background-image: url("../img/pexels-ivan-samkov-4458553.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-y: 45%;
+    background-position-x: 100%;
+    position: absolute;
+}
+
+form{
+    background: rgba( 217, 182, 139, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba(80, 80, 80, 0.37);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    width: 630px;
+    height: 660px;
+}
