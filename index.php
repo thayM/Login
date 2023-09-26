@@ -10,21 +10,24 @@
 </head>
 <body>
 
+<div class="formulario">
 <form action="">
     <h2 class="titulo">Login</h2>
 
     <div class="campos">
     <input required class="input" type="text" id="nome-box">
-    <label for=""><i class="bi bi-envelope"></i> Email</label>
+    <label for="">Email</label>
     </div>
 
     <div class="campos">
     <input required class="input" type="text">
-    <label for=""><i class="bi bi-key"></i> Senha</label>
+    <label for="">Senha</label>
     </div>
     
-    <p class="links">Esqueci minha senha</p>
-    <button class="btns logar">Logar</button>
+    <p class="pSenha">Esqueci minha senha</p>
+    <div class="logar">
+    <button class="btns">Logar</button>
+    </div>
 
     <p class="divBtns">ou</p>
 
@@ -33,8 +36,12 @@
     <button class="btns"><i class="bi bi-facebook"></i> Facebook</button>
     </div>
 
-    <p class="links">Não tem conta? Clique para se cadastrar</p>
+    <p class="pConta">Não tem conta? Clique para se cadastrar</p>
 </form>
-    
+</div>
+
 </body>
 </html>
+
+<!-- <i class="bi bi-envelope"></i>
+<i class="bi bi-key"></i>      -->
