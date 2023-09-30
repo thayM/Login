@@ -64,7 +64,7 @@ form{
     font-size: 30px;
     position: absolute;
     left: 70px;
-    bottom: 6px;
+    bottom: -15px;
     cursor: text;
     transition: all 0.3s ease;
     color: #BF4F45;
@@ -156,6 +156,29 @@ form{
     justify-content: center;
 }
 
-.bi-envelope, .bi-key{
+.labelCampos{
+    display: flex;
     color: #BF4F45;
+}
+
+.plabel{
+    margin-left: 9px;
+}
+
+.bi-eye-fill{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 80%;
+    top: 10px;
+    color:#BF4F45;
+}
+
+.bi-eye-slash-fill{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 80%;
+    top: 10px;
+    color:#BF4F45;
 }

@@ -15,13 +15,20 @@
     <h2 class="titulo">Login</h2>
 
     <div class="campos">
-    <input required class="input" type="text" id="nome-box">
-    <label for="">Email</label>
+    <input required class="input" id="nome-box" type="text">
+    <label class="labelCampos" for="">
+        <i class="bi bi-envelope-fill"></i>
+        <p  class="plabel">Email</p>
+    </label>
     </div>
 
     <div class="campos">
-    <input required class="input" type="text">
-    <label for="">Senha</label>
+    <input required class="input" id="senha" type="password">
+    <label class="labelCampos" for="">
+        <i class="bi bi-key-fill"></i>
+        <p class="plabel">Senha</p>
+    </label>
+    <i class="bi bi-eye-fill" id="btnSenha" onclick="exibirSenha()"></i>
     </div>
     
     <p class="pSenha">Esqueci minha senha</p>
@@ -39,7 +46,7 @@
     <p class="pConta">Não tem conta? Clique para se cadastrar</p>
 </form>
 </div>
-
+<script src="assets/js/main.js"></script>
 </body>
 </html>
 
