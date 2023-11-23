@@ -1,3 +1,3 @@
 # Login
 
-Sistema de login para mostrar habilidades com PHP, CSS, Bootstrape e MySQL.
+Sistema de login para mostrar habilidades com PHP, CSS e MySQL.
