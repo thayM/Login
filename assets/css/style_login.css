@@ -32,7 +32,7 @@ form{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 600px;
-    height: 590px;
+    min-height: 590px;
 }
 
 .formulario{
@@ -181,4 +181,8 @@ form{
     left: 80%;
     top: 10px;
     color:#BF4F45;
+}
+
+span{
+    margin-left: 90px;
 }
